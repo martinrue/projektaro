@@ -146,6 +146,26 @@ header h2 {
   background: url("/images/desc.svg") no-repeat left 3px/18px;
 }
 
+.project.inactive a {
+  cursor: default;
+}
+
+.inactive a {
+  pointer-events: none;
+}
+
+.inactive .details a {
+  text-decoration: line-through;
+}
+
+.inactive .details a:hover {
+  color: inherit;
+}
+
+.inactive .screenshot {
+  cursor: default;
+}
+
 body.en span.en {
   display: inline;
 }
